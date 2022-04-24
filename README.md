@@ -50,6 +50,8 @@ checkpoint = torch.load('Final_Model.pth')
 
 ```
 
+This will run a program that captures video from webcam and detect the three objects required for detection
+
 
 
 ## Training the Model
