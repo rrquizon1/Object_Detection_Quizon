@@ -49,3 +49,29 @@ Modify this line with the location or file name of the model to be loaded
 checkpoint = torch.load('Final_Model.pth')
 
 ```
+
+
+
+## Training the Model
+
+Run train_start.ipynb
+
+Run all blocks. Dont forget to change the director for train and test dataset and annotations.
+
+'''
+train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json"
+test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json"
+
+'''
+
+Other parameters that can be changed are epochs, number of classes, and batch size
+
+'''
+train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json"
+test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json"
+
+'''
