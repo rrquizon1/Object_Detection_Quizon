@@ -22,7 +22,7 @@ It is a faster and more accurate implementation of the R-CNN. See image below fo
 
 
 
-![ViTSTR Model](figures/Fast R-CNN.png)
+![ViTSTR Model](https://raw.githubusercontent.com/rrquizon1/Object_Detection_Quizon/main/figures/Fast%20R-CNN.png?token=GHSAT0AAAAAABTZPXKSSRCQNSS2ZFQV33YWYTEXZIA)
 
 Paper:
 [Arxiv](https://arxiv.org/abs/1504.08083)
