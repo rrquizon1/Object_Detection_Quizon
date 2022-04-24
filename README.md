@@ -21,7 +21,7 @@ Fast R-CNN is an object detector neural network model developed by Ross Girshick
 It is a faster and more accurate implementation of the R-CNN. See image below for the fast R CNN Architecture
 
 
-![This is an image](./figures/Fast R-CNN.png)
+![This is an image](figures/Fast R-CNN.png)
 
 Paper:
 [Arxiv](https://arxiv.org/abs/1504.08083)
