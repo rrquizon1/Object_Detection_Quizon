@@ -26,3 +26,15 @@ It is a faster and more accurate implementation of the R-CNN. See image below fo
 
 Paper:
 [Arxiv](https://arxiv.org/abs/1504.08083)
+
+
+## Install Requirements
+
+
+```
+pip install pycocotools
+pip install torch
+pip install torchvision
+pip install PIL
+pip install cv2
+```
