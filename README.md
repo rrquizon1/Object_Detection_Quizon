@@ -76,3 +76,29 @@ train_batch_size = 8
 ```
 
 My training was done in google colab and it only allowed me to train up to batch size of 8.
+
+
+
+## Training the Model from previously trained model
+
+Run continue_to_train.ipynb
+
+Run all blocks. Dont forget to change the director for train and test dataset and annotations.
+
+```
+train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
+train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json"
+test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json"
+
+```
+
+Other parameters that can be changed are epochs, number of classes, and batch size
+
+```
+num_classes =4
+num_epochs = 10
+train_batch_size = 8
+
+```
+
