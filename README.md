@@ -43,7 +43,7 @@ pip install cv2
 ## Inference and Evaluation
 
 To test the model please run Video_Capture_object_detect.py 
-Modify this line with the location or file name of the model to be loaded
+Modify this line with the location and file name of the model to be loaded
 
 ```
 checkpoint = torch.load('Final_Model.pth')
