@@ -77,7 +77,7 @@ test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json"
 Other parameters that can be changed are epochs, number of classes, and batch size
 
 ```
-num_classes =4
+num_classes =4 #number of classes put here are 4 1 for water,2 for soda,3 for juice, and 0 for background therefore 4 classes.
 num_epochs = 10
 train_batch_size = 8
 
