@@ -91,7 +91,7 @@ My training was done in google colab and it only allowed me to train up to batch
 
 Run continue_to_train.ipynb
 
-Run all blocks. Dont forget to change the director for train and test dataset and annotations.
+Run all blocks. Dont forget to change the directory for train and test dataset and annotations.
 
 ```
 train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #train image dataset location
