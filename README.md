@@ -83,7 +83,7 @@ train_batch_size = 8
 
 ```
 
-My training was done in google colab and it only allowed me to train up to batch size of 8.
+
 
 
 
