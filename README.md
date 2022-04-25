@@ -62,16 +62,16 @@ imgpath='WIN_20220422_09_04_12_Pro.jpg'
 
 ## Training the Model
 
-Run train_start.ipynb
+Run train_start.py but change the following variables
 
-Run all blocks. Dont forget to change the director for train and test dataset and annotations.
+
 
 ```
-train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #train image dataset location
-test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #test image dataset location
-train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json" #train annotations
-test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json" #test annotations
-
+library_path=r'D:\UPD MASters\EE 298\REQ02\Final Files' # Directory for the reference vision modules
+train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
+test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
+train_coco = r"train.json" # Train annotations
+test_coco=r"test.json" #Test annotation
 ```
 
 Other parameters that can be changed are epochs, number of classes, and batch size
@@ -89,15 +89,16 @@ My training was done in google colab and it only allowed me to train up to batch
 
 ## Continue training a previously trained model
 
-Run continue_to_train.ipynb
+Run continue_train.py but change the following variables
 
 Run all blocks. Dont forget to change the directory for train and test dataset and annotations.
 
 ```
-train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #train image dataset location
-test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #test image dataset location
-train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json" #train annotations
-test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json" #test annotations
+library_path=r'D:\UPD MASters\EE 298\REQ02\Final Files' # Directory for the reference vision modules
+train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
+test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
+train_coco = r"train.json" # Train annotations
+test_coco=r"test.json" #Test annotation
 
 ```
 
