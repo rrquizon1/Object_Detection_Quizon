@@ -67,10 +67,10 @@ Run train_start.ipynb
 Run all blocks. Dont forget to change the director for train and test dataset and annotations.
 
 ```
-train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
-test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images"
-train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json"
-test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json"
+train_data_dir = r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #train image dataset location
+test_data_dir=r"/content/gdrive/MyDrive/EE298 2022/REQ02/Images" #test image dataset location
+train_coco = r"/content/gdrive/MyDrive/EE298 2022/REQ02/train.json" #train annotations
+test_coco=r"/content/gdrive/MyDrive/EE298 2022/REQ02/test.json" #test annotations
 
 ```
 
