@@ -87,7 +87,7 @@ My training was done in google colab and it only allowed me to train up to batch
 
 
 
-## Training the Model from previously trained model
+## Continue training a previously trained model
 
 Run continue_to_train.ipynb
 
