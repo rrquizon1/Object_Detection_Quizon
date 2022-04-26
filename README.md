@@ -86,8 +86,13 @@ num_epochs = 10
 train_batch_size = 8
 
 ```
+Learning rate scheduler below is used to train the final model:
 
+```
+optimizer = torch.optim.SGD(params, lr=0.01, momentum=0.9, weight_decay=0.0005)
+```
 
+You can modify lr, momentum, and weight decay parameters.
 
 
 
@@ -114,4 +119,12 @@ num_epochs = 10
 train_batch_size = 8
 
 ```
+
+Learning rate scheduler below is used to train the final model:
+
+```
+optimizer = torch.optim.SGD(params, lr=0.01, momentum=0.9, weight_decay=0.0005)
+```
+
+You can modify lr, momentum, and weight decay parameters.
 
