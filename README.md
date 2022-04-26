@@ -74,7 +74,7 @@ train_coco = r"train.json" # Train annotations
 test_coco=r"test.json" #Test annotation
 ```
 
-Other parameters that can be changed are epochs, number of classes, and batch size
+Other hyperparameters that can be changed are epochs, number of classes, and batch size
 
 ```
 num_classes =4 #number of classes put here are 4 1 for water,2 for soda,3 for juice, and 0 for background therefore 4 classes.
@@ -102,7 +102,7 @@ test_coco=r"test.json" #Test annotation
 
 ```
 
-Other parameters that can be changed are epochs, number of classes, and batch size
+Other hyperparameters that can be changed are epochs, number of classes, and batch size
 
 ```
 num_classes =4
