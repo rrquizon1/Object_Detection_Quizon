@@ -37,6 +37,7 @@ pip install torch
 pip install torchvision
 pip install PIL
 pip install cv2
+pip install os
 ```
 
 ## Other requirements
