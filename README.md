@@ -67,7 +67,7 @@ Run train_start.py but change the following variables
 
 
 ```
-library_path=r'D:\UPD MASters\EE 298\REQ02\Final Files' # Directory for the reference vision modules
+
 train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
 test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
 train_coco = r"train.json" # Train annotations
@@ -94,7 +94,7 @@ Run continue_train.py but change the following variables
 Run all blocks. Dont forget to change the directory for train and test dataset and annotations.
 
 ```
-library_path=r'D:\UPD MASters\EE 298\REQ02\Final Files' # Directory for the reference vision modules
+
 train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
 test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
 train_coco = r"train.json" # Train annotations
