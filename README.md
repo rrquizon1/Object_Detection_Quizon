@@ -39,6 +39,9 @@ pip install PIL
 pip install cv2
 ```
 
+## Other requirements
+
+Please take note that train.json and test.json is not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. Check coco_maker2.py for the json file generator I made using SAHI library.
 
 ## Inference and Evaluation
 
@@ -60,7 +63,7 @@ imgpath='WIN_20220422_09_04_12_Pro.jpg'
 
 ```
 
-## Training the Model
+## Training Fast R-CNN from scratch Model
 
 Run train_start.py but change the following variables
 
