@@ -44,6 +44,8 @@ pip install os
 
 Please take note that train.json and test.json is not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. Check coco_maker2.py for the json file generator I made using SAHI library.
 
+Put drinks dataset in the Images folder in the same directory of the repo.
+
 ## Inference and Evaluation
 
 To test the model please run Video_Capture_object_detect.py 
