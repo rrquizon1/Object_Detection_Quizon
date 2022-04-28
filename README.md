@@ -42,7 +42,7 @@ pip install os
 
 ## Other requirements
 
-Please take note that train.json and test.json is not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. Check coco_maker2.py for the json file generator I made using SAHI library.
+Please take note that train.json and test.json are not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. Check coco_maker2.py for the json file generator I made using SAHI library and the labels_train.csv and labels_test.csv.
 
 Put drinks dataset in the Images folder in the same directory of the repo.
 
