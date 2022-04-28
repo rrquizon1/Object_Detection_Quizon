@@ -80,7 +80,7 @@ train_coco = r"train.json" # Train annotations
 test_coco=r"test.json" #Test annotation
 ```
 
-Other hyperparameters that can be changed are epochs, number of classes, and batch size
+Other hyperparameters that can be changed are epochs, number of classes, and batch size. The hyperparameters below are used for training for the final model submitted.
 
 ```
 num_classes =4 #number of classes put here are 4 1 for water,2 for soda,3 for juice, and 0 for background therefore 4 classes.
@@ -130,3 +130,6 @@ optimizer = torch.optim.SGD(params, lr=0.01, momentum=0.9, weight_decay=0.0005)
 
 You can modify lr, momentum, and weight decay parameters.
 
+## Sample Result
+
+For sample result, please download Model_demo.mp4. You may also use Video_Capture_object_detect.py to use your own webcam for object detection. 
