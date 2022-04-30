@@ -38,6 +38,8 @@ pip install torchvision
 pip install PIL
 pip install cv2
 pip install os
+pip install gdown
+pip install tarfile
 ```
 
 ## Other requirements
