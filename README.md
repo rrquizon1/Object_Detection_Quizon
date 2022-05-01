@@ -40,6 +40,7 @@ pip install cv2
 pip install os
 pip install gdown
 pip install tarfile
+pip install sys
 ```
 
 ## Other requirements
