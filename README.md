@@ -69,51 +69,16 @@ Change the variable below with the location of image to be evaluated.
 imgpath='WIN_20220422_09_04_12_Pro.jpg'
 
 ```
-
-## Training Fast R-CNN from scratch Model
-
-Run train_start.py but change the following variables
-
-
-
-```
-
-train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
-test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
-train_coco = r"train.json" # Train annotations
-test_coco=r"test.json" #Test annotation
-```
-
-Other hyperparameters that can be changed are epochs, number of classes, and batch size. The hyperparameters below are used for training for the final model submitted.
-
-```
-num_classes =4 #number of classes put here are 4 1 for water,2 for soda,3 for juice, and 0 for background therefore 4 classes.
-num_epochs = 10
-train_batch_size = 8
-
-```
-Learning rate scheduler below is used to train the final model:
-
-```
-optimizer = torch.optim.SGD(params, lr=0.01, momentum=0.9, weight_decay=0.0005)
-```
-
-You can modify lr, momentum, and weight decay parameters.
-
-
-
 ## Continue training a previously trained model
 
-Run continue_train.py but change the following variables
-
-Run all blocks. Dont forget to change the directory for train and test dataset and annotations.
+Run continue_train.py 
 
 ```
 
-train_data_dir = r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Training Images directory
-test_data_dir=r"D:\UPD MASters\EE 298\REQ02\Final Files\Images" # Testing Images directory
-train_coco = r"train.json" # Train annotations
-test_coco=r"test.json" #Test annotation
+train_data_dir = r"drinks"
+test_data_dir=r"drinks"
+train_coco = r"train.json"
+test_coco=r"test.json"
 
 ```
 
