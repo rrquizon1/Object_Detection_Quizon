@@ -59,7 +59,7 @@ To evaluate performance of the model on the test dataset of drinks dataset pleas
 
 ## Continue training a previously trained model
 
-Run train.py. Check the variables below if there are problems during training. This .py file is tested to be running OK.
+Run train.py. Check the variables below if there are problems during training. These are location for dataset and annotations. This .py file is tested to be running OK.
 
 ```
 
