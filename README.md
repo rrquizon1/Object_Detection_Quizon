@@ -70,11 +70,11 @@ imgpath='WIN_20220422_09_04_12_Pro.jpg'
 
 ```
 
-To evaluate performance of the model on the test dataset of drinks dataset please run test.py
+To evaluate performance of the model on the test dataset of drinks dataset please run test.py. Test.py is tested to be running OK.
 
 ## Continue training a previously trained model
 
-Run continue_train.py 
+Run train.py. Check the variables below if there are problems during training. This .py file is tested to be running OK.
 
 ```
 
