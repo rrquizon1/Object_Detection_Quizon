@@ -69,6 +69,9 @@ Change the variable below with the location of image to be evaluated.
 imgpath='WIN_20220422_09_04_12_Pro.jpg'
 
 ```
+
+To evaluate performance of the model on the test dataset of drinks dataset please run test.py
+
 ## Continue training a previously trained model
 
 Run continue_train.py 
