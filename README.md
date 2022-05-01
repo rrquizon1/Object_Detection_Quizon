@@ -33,6 +33,7 @@ pip install gdown
 pip install tarfile
 pip install sys
 pip install Path
+pip install transforms
 ```
 
 ## Other requirements
