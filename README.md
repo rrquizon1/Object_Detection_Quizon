@@ -41,6 +41,7 @@ pip install os
 pip install gdown
 pip install tarfile
 pip install sys
+pip install Path
 ```
 
 ## Other requirements
