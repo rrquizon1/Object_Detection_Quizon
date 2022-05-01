@@ -2,8 +2,10 @@ sys
 os
 torch
 torchvision
-Image
+PIL
 cv2
 transforms
 gdown
 tarfile
+pycocotools
+Path
