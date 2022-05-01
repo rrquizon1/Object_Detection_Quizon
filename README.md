@@ -54,13 +54,6 @@ checkpoint = torch.load('Final_Model.pth')
 
 This will run a program that captures video from webcam and detect the three objects required for detection.
 
-You can also test the model using images. Use modeleval.py and change the same variable edited above for model location.
-Change the variable below with the location of image to be evaluated.
-
-```
-imgpath='WIN_20220422_09_04_12_Pro.jpg'
-
-```
 
 To evaluate performance of the model on the test dataset of drinks dataset please run test.py. Test.py is tested to be running OK.
 
