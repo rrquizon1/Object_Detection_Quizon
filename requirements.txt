@@ -2,7 +2,7 @@ sys
 os
 torch
 torchvision
-PIL
+Image
 cv2
 transforms
 gdown
