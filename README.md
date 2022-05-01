@@ -26,7 +26,7 @@ Paper:
 pip install pycocotools
 pip install torch
 pip install torchvision
-pip install PIL
+pip install Image
 pip install cv2
 pip install os
 pip install gdown
