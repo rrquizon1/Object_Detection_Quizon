@@ -38,7 +38,7 @@ pip install transforms
 
 ## Other requirements
 
-Please take note that train.json and test.json are not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. Check coco_maker2.py for the json file generator I made using SAHI library and the labels_train.csv and labels_test.csv.
+Please take note that train.json and test.json are not the same with the given json files with the drinks dataset. Train.json and test.json are json files I made to conform to COCO dataset format. These files are included in the repository Check coco_maker2.py for the json file generator I made using SAHI library and the labels_train.csv and labels_test.csv.
 
 Please make sure that there is no drinks folder or file within the working directory to download the model and the dataset. train.py and test.py checks the presence of drinks folder to download dataset. If it is present the dataset and the model file will not be downloaded.
 
