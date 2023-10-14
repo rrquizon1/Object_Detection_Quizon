@@ -70,7 +70,7 @@ test_coco=r"test.json"
 
 ```
 
-Other hyperparameters that can be changed are epochs, number of classes, and batch size. The values belwo are used to train the model
+Other hyperparameters that can be changed are epochs, number of classes, and batch size. The values below are used to train the model
 
 ```
 num_classes =4
