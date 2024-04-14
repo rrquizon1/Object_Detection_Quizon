@@ -1,6 +1,6 @@
 # Object Detection using Fast R CNN by Rhodel Quizon
 
-Beginner friendly repository for object detection. 
+Beginner friendly repository for object detection using Fast R CNN. 
 To be submitted as requirement 02 for EE298 Second Sem 2021-2022
 
 
